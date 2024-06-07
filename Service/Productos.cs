@@ -11,27 +11,27 @@ namespace practApi4.Service
         public List<Producto> getTrendingProductos() {
             List<Producto> result = new List<Producto>
             {
-               new Producto { ProductoId = 3, ProductoNombre = "Nueva Película Tendencia 1 (2008)" },
-        new Producto { ProductoId = 7, ProductoNombre = "Nueva Película 7 (2010)" },
-        new Producto { ProductoId = 6, ProductoNombre = "Nueva Película 6 (1994)" },
-            };
+        new Producto { ProductoId = 3, ProductoNombre = "Smartphone Tendencia 1 (2024)" },
+        new Producto { ProductoId = 7, ProductoNombre = "Tablet Tendencia 7 (2025)" },
+        new Producto { ProductoId = 6, ProductoNombre = "Laptop Tendencia 6 (2023)" },
+    };
 
             return result;
         }
         public List<Producto> getAllProductos() {
             List<Producto> result = new List<Producto>
             {
-                 new Producto { ProductoId = 1, ProductoNombre = "Nueva Película 1 (1994)" },
-        new Producto { ProductoId = 2, ProductoNombre = "Nueva Película 2 (1972)" },
-        new Producto { ProductoId = 3, ProductoNombre = "Nueva Película 3 (2008)" },
-        new Producto { ProductoId = 4, ProductoNombre = "Nueva Película 4 (1994)" },
-        new Producto { ProductoId = 5, ProductoNombre = "Nueva Película 5 (2003)" },
-        new Producto { ProductoId = 6, ProductoNombre = "Nueva Película 6 (1994)" },
-        new Producto { ProductoId = 7, ProductoNombre = "Nueva Película 7 (2010)" },
-        new Producto { ProductoId = 8, ProductoNombre = "Nueva Película 8 (1999)" },
-        new Producto { ProductoId = 9, ProductoNombre = "Nueva Película 9 (1999)" },
-        new Producto { ProductoId = 10, ProductoNombre = "Nueva Película 10 (2014)" }
-            };
+        new Producto { ProductoId = 1, ProductoNombre = "Smartphone Clásico 1 (2022)" },
+        new Producto { ProductoId = 2, ProductoNombre = "Tablet Clásico 2 (2021)" },
+        new Producto { ProductoId = 3, ProductoNombre = "Laptop Clásica 3 (2020)" },
+        new Producto { ProductoId = 4, ProductoNombre = "Smartwatch Clásico 4 (2019)" },
+        new Producto { ProductoId = 5, ProductoNombre = "Headset Clásico 5 (2018)" },
+        new Producto { ProductoId = 6, ProductoNombre = "Laptop Tendencia 6 (2023)" },
+        new Producto { ProductoId = 7, ProductoNombre = "Tablet Tendencia 7 (2025)" },
+        new Producto { ProductoId = 8, ProductoNombre = "Smartphone Tendencia 8 (2024)" },
+        new Producto { ProductoId = 9, ProductoNombre = "Gafas Inteligentes 9 (2023)" },
+        new Producto { ProductoId = 10, ProductoNombre = "Robot Doméstico 10 (2022)" }
+    };
 
             return result;
         }
